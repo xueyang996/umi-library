@@ -1,0 +1,29 @@
+{
+  "name": "umi-library-test",
+  "version": "1.0.1",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist"
+  ],
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "https://git.oschina.net/xxxx"
+  },
+  "scripts": {
+    "doc:dev": "umi-lib doc dev",
+    "test": "umi-test",
+    "pub": "yarn run test && yarn publish",
+    "dev": "umi-lib build --watch",
+    "doc:build": "umi-lib doc build",
+    "doc:deploy": "umi-lib doc deploy",
+    "build": "umi-lib build"
+  },
+  "author": "mrzhang <zhangmr@shumei.ai>",
+  "license": "MIT",
+  "devDependencies": {
+    "umi-library": "^1.0.1",
+    "umi-test": "^1.4.4"
+  }
+}
