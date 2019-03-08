@@ -6,10 +6,10 @@
   "files": [
     "dist"
   ],
-  "homepage": "https://github.com/xueyang996/umi-library",
+  "homepage": "https://github.com/xueyang996/umi-library-test",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xueyang996/umi-library"
+    "url": "https://github.com/xueyang996/umi-library-test"
   },
   "scripts": {
     "doc:dev": "umi-lib doc dev",
