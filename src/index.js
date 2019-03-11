@@ -1,3 +1,3 @@
-import Foo from './Foo/index.js'
+import Foo from './Foo/index.js';
 
-export {Foo}
+export { Foo };
